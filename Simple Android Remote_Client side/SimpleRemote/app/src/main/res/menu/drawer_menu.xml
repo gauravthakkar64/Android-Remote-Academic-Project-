@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/connect"
+        android:title="Connect"
+        android:icon="@drawable/connect">
+
+    </item>
+    <item android:id="@+id/touchpad"
+        android:title="TouchPad"
+        android:icon="@drawable/touchpad">
+
+    </item>
+    <item android:id="@+id/keyboard"
+        android:title="KeyBoard"
+        android:icon="@drawable/keyboard">
+
+    </item>
+
+    <item
+    android:id="@+id/presentation"
+    android:icon="@drawable/presentation"
+    android:title="Presentation Mode"/>
+    <item
+        android:id="@+id/nav_power"
+        android:icon="@drawable/power_off"
+        android:title="Power Option" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_webview"
+                android:icon="@drawable/ic_search"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>
